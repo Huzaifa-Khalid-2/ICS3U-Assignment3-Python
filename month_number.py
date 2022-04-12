@@ -9,6 +9,7 @@ def main():
     # This program asks for a month and tells how many days it has
     print("This program asks you for a month and tells how many days it has.")
     print("")
+    
     # input
     user_month = input("Insert any month: ")
     print("")
@@ -45,4 +46,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
