@@ -1,50 +1,48 @@
 #!/usr/bin/env python3
 
-# Created by: Huzaifa
-# Created on: March 2022
-# This function takes a random integer between 1-12 from the user
-# and tells them what the month is accordingly
-
-import random
+# Created by: Huzaifa Khalid
+# Created on: April 2022
+# This program asks for a month and tells how many days it has
 
 
 def main():
-    # This function takes a random integer between 1-12 from the user
-    # and tells them what the month is accordingly
-
+    # This program asks for a month and tells how many days it has
+    print("This program asks you for a month and tells how many days it has.")
+    print("")
     # input
-    user_guess = int(input("Insert any number between 1-12 (integers): "))
+    user_month = input("Insert any month: ")
     print("")
 
     # process and output
-    if user_guess == 1:
-        print("it's January")
-    elif user_guess == 2:
-        print("it's February")
-    elif user_guess == 3:
-        print("it's March")
-    elif user_guess == 4:
-        print("it's April")
-    elif user_guess == 5:
-        print("it's May")
-    elif user_guess == 6:
-        print("it's June")
-    elif user_guess == 7:
-        print("it's July")
-    elif user_guess == 8:
-        print("it's August")
-    elif user_guess == 9:
-        print("it's September")
-    elif user_guess == 10:
-        print("it's October")
-    elif user_guess == 11:
-        print("it's November")
-    elif user_guess == 12:
-        print("it's December")
+    if user_month == "January":
+        print("31 days")
+    elif user_month == "February":
+        print("28 days (unless its a leap year)")
+    elif user_month == "March":
+        print("31 days")
+    elif user_month == "April":
+        print("30 days")
+    elif user_month == "May":
+        print("31 days")
+    elif user_month == "June":
+        print("30 days")
+    elif user_month == "July":
+        print("31 days")
+    elif user_month == "August":
+        print("31 days")
+    elif user_month == "September":
+        print("30 days")
+    elif user_month == "October":
+        print("31 days")
+    elif user_month == "November":
+        print("30 days")
+    elif user_month == "December":
+        print("31 days")
     else:
-        print("Sorry big man I got nothing ¯\_(ツ)_/¯ ")
+        print("Bro what is that answer (・_・ヾ I asked for a month.")
     print("\nDone")
 
 
 if __name__ == "__main__":
     main()
+
